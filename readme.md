@@ -3,6 +3,8 @@ These js are some important concepts introduced in "JS: the good parts". They ca
 
 # tasks
 1. method-expand -10:
+	1. object method expand -12:
+	2. what this.prototype is undefined for testObj :
 2. create-by-proto -10:
 3. curry -10:
 4. meomorize -10:
