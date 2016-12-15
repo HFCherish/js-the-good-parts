@@ -1,6 +1,6 @@
 // expand method in Object.prototype. There is no need to do the following things, because it is more convenient to add property directyly to object
 Object.prototype.method = function(methodName, func) {
-	// cannot use this.prototype[methodName], because 
+	// must use [] extraction, cannot use . extraction. because . can only be applied to a name, while [] can be applied to both name and string.
 	if(this[methodName] === undefined) {
 		this[methodName] = func;
 	}

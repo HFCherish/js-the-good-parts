@@ -67,6 +67,12 @@ console.log(Function.prototype.__proto__ === Object.prototype);	//true.
 console.log('an object.prototype is null. Object.prototype is the beginning of the whole extends link');
 console.log(Object.prototype.__proto__ === null);
 
+console.log('---------------------------------------------------------');
+var parent = {prop: 'value'};
+var son = Object.create(parent);
+console.log(son.prop);	//value
+console.log(son.__proto__ === parent);	//true
+
 
 
 
