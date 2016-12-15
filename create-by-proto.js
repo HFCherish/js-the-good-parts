@@ -1,3 +1,4 @@
+// can create by proto
 Object.create = function(protoConstructor) {
 	if(typeof protoConstructor === 'object' || typeof protoConstructor === 'function'){
 		var obj = new Object();
